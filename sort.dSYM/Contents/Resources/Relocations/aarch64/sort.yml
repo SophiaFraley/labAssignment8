@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sophiafraley/Desktop/myRepos/lab_8/sort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Alloc, symObjAddr: 0x0, symBinAddr: 0x100003590, symSize: 0x70 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _extraMemoryAllocated, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xA2, offset: 0xA2, size: 0x8, addend: 0x0, symName: _Alloc, symObjAddr: 0x0, symBinAddr: 0x100003590, symSize: 0x70 }
+  - { offsetInCU: 0xD8, offset: 0xD8, size: 0x8, addend: 0x0, symName: _DeAlloc, symObjAddr: 0x70, symBinAddr: 0x100003600, symSize: 0x6C }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _Size, symObjAddr: 0xDC, symBinAddr: 0x10000366C, symSize: 0x18 }
+  - { offsetInCU: 0x132, offset: 0x132, size: 0x8, addend: 0x0, symName: _mergeSort, symObjAddr: 0xF4, symBinAddr: 0x100003684, symSize: 0x2FC }
+  - { offsetInCU: 0x1F0, offset: 0x1F0, size: 0x8, addend: 0x0, symName: _parseData, symObjAddr: 0x3F0, symBinAddr: 0x100003980, symSize: 0x134 }
+  - { offsetInCU: 0x26C, offset: 0x26C, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x524, symBinAddr: 0x100003AB4, symSize: 0x164 }
+  - { offsetInCU: 0x2C8, offset: 0x2C8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x688, symBinAddr: 0x100003C18, symSize: 0x1F0 }
+...
